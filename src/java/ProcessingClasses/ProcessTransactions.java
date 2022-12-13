@@ -47,6 +47,7 @@ public class ProcessTransactions {
                         }
                     }
                 }
+                //@TODO:
                 String fld3 = fields.get("3");
                 if ("400000".equalsIgnoreCase(fld3) || "620000".equalsIgnoreCase(fld3) || "630000".equalsIgnoreCase(fld3) || "440000".equalsIgnoreCase(fld3) || "010000".equalsIgnoreCase(fld3)) {
                     transLimit = db.GettransactionLimit(fields);
