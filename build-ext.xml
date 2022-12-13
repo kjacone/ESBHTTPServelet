@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<project name="BUILD-EXT" default="build-ext" basedir=".">
+    <import file="build.xml"/>
+    <property environment="env"/>
+    <property name="platforms.java" value="${env.JAVA_HOME}" />
+    <target name="build-ext" depends="default"/>
+</project>
